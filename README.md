@@ -1,8 +1,10 @@
 # laravelCodesToRemember
 
+
 //Code for Counting
 
-{{(App\User::all()->count())}}
+	{{(App\User::all()->count())}}
+
 
 
 // Edit
