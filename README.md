@@ -1,5 +1,10 @@
 # laravelCodesToRemember
 
+//Code for Counting
+
+{{(App\User::all()->count())}}
+
+
 // Edit
 
 	function edit($user_id)
