@@ -42,12 +42,6 @@
       return back();
     }
     
-    
-    
- // CDN Link For Sweetalert2 
- https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.js
- 
- 
  
  
  
@@ -162,15 +156,7 @@
 	    });
 	</script>
 
-
-
-
-
-
-
-   
-   
-   
+      
   //git solution
   
   	$ cd ~/.ssh
@@ -179,5 +165,27 @@
 	//optional
 	$ cat ~/.ssh/id_rsa.pub
    
+   
+   
+       
+    
+ // CDN Link For Sweetalert2 
+ https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.js
+ 
+ 
+   
+ //laravel Validation
+public function store(Request $request)
+{
+    $validatedData = $request->validate([
+        'title' => 'required|unique:posts|max:255',
+        'body' => 'required',
+	
+	
+	then declare veriables
+    ]);
+
+    // The blog post is valid...
+}
    
    
