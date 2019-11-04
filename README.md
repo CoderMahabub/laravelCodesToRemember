@@ -1,7 +1,7 @@
 # laravelCodesToRemember
 
 
-//Code for Counting
+//Code for Counting(Add Where to show)
 
 	{{(App\User::all()->count())}}
 
